@@ -16,8 +16,8 @@ app.use('/', products_routes)
 
 //Server startup
 app.listen(5000, () => {
-    const welcome = slugify('server is listening on port 5000', '*')
-    console.log(welcome)
+    const welcome1 = slugify('server is listening on port 5000', '*')
+    console.log(welcome1)
 })
 
 
